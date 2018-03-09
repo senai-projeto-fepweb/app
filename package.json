@@ -1,0 +1,34 @@
+{
+  "name": "fepweb",
+  "version": "1.0.0",
+  "description": "Para o desenvolvimento do Projeto da Fepweb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senai-projeto-fepweb/app.git"
+  },
+  "keywords": [
+    "chatbot",
+    "senai",
+    "node.js",
+    "freshDesk"
+  ],
+  "author": "Grupo Senai fepWeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senai-projeto-fepweb/app/issues"
+  },
+  "homepage": "https://github.com/senai-projeto-fepweb/app#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "freshdesk-api": "^2.4.0",
+    "morgan": "^1.9.0"
+  }
+}
