@@ -1,9 +1,10 @@
 const express = require('express'); //Facilita fazer o controller
 const app = express();
 const Freshdesk = require('freshdesk-api')
-const freshdesk = new Freshdesk('https://fepweb-senai.freshdesk.com/', 'tOOX5OT3UnwJdUQhwJV')
-const bodyParser = require('body-parser')
+const freshdesk = new Freshdesk('https://fepweb-senai.freshdesk.com/', 'tOOX5OT3UnwJdUQhwJV');
+const bodyParser = require('body-parser');
 const morgan = require('morgan');
+
 
 const ticketsRoutes = require('./api/routes/tickets')// Rota para o ticket
 
